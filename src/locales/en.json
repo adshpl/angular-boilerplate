@@ -1,0 +1,20 @@
+{
+  "components/signUp/username": "Username",
+  "components/signUp/login": "Login",
+  "components/signUp/password": "Password",
+  "components/signUp/repeatPassword": "Repeat password",
+  "components/signUp/submit": "Create an account",
+  "components/signIn/login": "Login",
+  "components/signIn/password": "Password",
+  "components/signIn/submit": "Login",
+  "pages/home/header": "Home",
+  "pages/notFound/header": "Not Found",
+  "pages/signUp/header": "Registration",
+  "pages/signIn/header": "Login",
+  "validation/c7c04f2a-1010-4c06-a82c-e4ce976bf62c": "User already registered",
+  "validation/b821d692-84b1-4382-b30a-db99aaa81617": "User not found or password does not match",
+  "validation/bb23c53d-144a-4e0d-ab50-eabd7ba8ca32": "{{ field }} must be longer or equal to 3 characters",
+  "validation/f534228d-7d35-447f-afc3-5af26fb061b3": "{{ field }} should contain only letters or numbers",
+  "validation/c1ddf435-3287-4c5a-99c7-99e83aa3e577": "{{ field }} too weak",
+  "validation/1b5f4b43-e99d-4e9c-bb11-c858a0d2489e": "Passwords should match"
+}

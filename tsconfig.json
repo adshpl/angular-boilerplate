@@ -1,0 +1,45 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "target": "es2017",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "paths": {
+      "application/*": ["application/*"],
+      "assets/*": ["assets/*"],
+      "components/*": ["components/*"],
+      "constants/*": ["constants/*"],
+      "graphql/*": ["graphql/*"],
+      "locales/*": ["locales/*"],
+      "logger/*": ["logger/*"],
+      "pages/*": ["pages/*"],
+      "services/*": ["services/*"],
+      "utils/*": ["utils/*"],
+      "validators/*": ["validators/*"]
+    },
+    "declaration": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

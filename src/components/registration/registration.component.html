@@ -1,0 +1,39 @@
+<section>
+  <form
+    [formGroup]="form"
+    (ngSubmit)="submit()"
+  >
+    <input-container
+      label="{{ 'components/signUp/username' | translate }}"
+      title="Username"
+      name="username"
+      [formControl]="username"
+      ngDefaultControl
+    ></input-container>
+    <input-container
+      label="{{ 'components/signUp/login' | translate }}"
+      title="Login"
+      name="login"
+      [formControl]="login"
+      ngDefaultControl
+    ></input-container>
+    <input-container
+      label="{{ 'components/signUp/password' | translate }}"
+      title="Password"
+      name="password"
+      [formControl]="password"
+      ngDefaultControl
+    ></input-container>
+    <input-container
+      label="{{ 'components/signUp/repeatPassword' | translate }}"
+      title="Repeat password"
+      name="repeatPassword"
+      [formControl]="repeatPassword"
+      ngDefaultControl
+    ></input-container>
+    <errors-container [errors]="errors"></errors-container>
+    <button type="submit">
+      {{ "components/signUp/submit" | translate }}
+    </button>
+  </form>
+</section>

@@ -1,0 +1,9 @@
+<section>
+  <ng-container *ngIf="errorsValues">
+    <ul *ngFor="let errorValue of errorsValues">
+      <li>
+        {{ errorValue | translate:translationParams }}
+      </li>
+    </ul>
+  </ng-container>
+</section>

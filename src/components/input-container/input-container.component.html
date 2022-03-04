@@ -1,0 +1,18 @@
+<section [className]="'input-container'">
+  <label
+    *ngIf="label"
+    [className]="'input-container__label'"
+    [for]="name"
+  >
+    {{ label }}
+  </label>
+  <input
+    [name]="name"
+    [formControl]="formControl"
+  />
+  <errors-container
+    *ngIf="errors"
+    [translationParams]="translationParams"
+    [errors]="errors"
+  ></errors-container>
+</section>

@@ -1,0 +1,19 @@
+@import "../breakpoints";
+
+@mixin mobile {
+  @media only screen and (min-width: #{$breakpoint-mobile-min}) and (max-width: #{$breakpoint-mobile-max}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (min-width: #{$breakpoint-tablet-min}) and (max-width: #{$breakpoint-tablet-max}) {
+    @content;
+  }
+}
+
+@mixin small-screen {
+  @media only screen and (min-width: #{$breakpoint-small-screen-min}) and (max-width: #{$breakpoint-small-screen-max}) {
+    @content;
+  }
+}

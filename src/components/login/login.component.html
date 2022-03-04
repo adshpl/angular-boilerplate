@@ -1,0 +1,25 @@
+<section>
+  <form
+    [formGroup]="form"
+    (ngSubmit)="submit()"
+  >
+    <input-container
+      label="{{ 'components/signIn/login' | translate }}"
+      title="Login"
+      name="login"
+      [formControl]="login"
+      ngDefaultControl
+    ></input-container>
+    <input-container
+      label="{{ 'components/signIn/password' | translate }}"
+      title="Password"
+      name="password"
+      [formControl]="password"
+      ngDefaultControl
+    ></input-container>
+    <errors-container [errors]="errors"></errors-container>
+    <button type="submit">
+      {{ "components/signIn/submit" | translate }}
+    </button>
+  </form>
+</section>
